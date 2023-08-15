@@ -1,3 +1,4 @@
+// A: done ✅
 let e1 = +(prompt("1-ci eded"));
 let e2 = +(prompt("2-ci eded"));
 
