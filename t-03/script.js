@@ -1,3 +1,4 @@
+// A: function? :)
 let km = prompt("Km daxil edin");
 let mil = km * 0.6214;
 
