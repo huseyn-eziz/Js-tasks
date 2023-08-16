@@ -6,7 +6,7 @@ let music = prompt(`Mahni sec:
 `)
 
 
-if (music === "1"){
+if (music === "1") {
 
     alert(`Nə isə.. 
     Axı biz əl-ələ yaşayıb öləcəkdik nə isə..
@@ -18,7 +18,7 @@ if (music === "1"){
     Hansımız daha çox sevirik görəcəkdik nə isə..
     Artıq sən təksən!`)
 }
-if (music === "2"){
+if (music === "2") {
     alert(`Sənlə tanışan zaman 
     Heç keçməzdi ağlımdan
     Sənə belə bağlanam 
@@ -28,7 +28,7 @@ if (music === "2"){
     Vaxt ötür olur olan
     Alnımıza yazilan`)
 }
-if (music === "3"){
+if (music === "3") {
     alert(`Esqinnen serxos dediler bir musiqi qos
     Yanmasin ureyin derdden cos
     Dediler bir musiqi qos
@@ -37,7 +37,7 @@ if (music === "3"){
     Men ne yazim gelsin ona xos
     Men ne edim gelsin ona xos`)
 }
-if (music === "4"){
+if (music === "4") {
     alert(`Bağa girmərəm sənsiz,
     Gülün dərmərəm sənsiz,
     Bağda quzu mələsə,

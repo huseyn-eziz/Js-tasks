@@ -1,11 +1,11 @@
 let eded = +prompt(`Eded daxil edin:`)
 
 
-if (eded > 0){
+if (eded > 0) {
 
     alert(`Eded musbetdir`)
 
-} else if (eded < 0){
+} else if (eded < 0) {
 
     alert(`Eded musbetdir`)
 

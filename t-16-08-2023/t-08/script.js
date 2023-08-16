@@ -1,7 +1,7 @@
 let eded = +prompt(`Eded daxil edin:`)
 
 
-if (eded % 2 === 0){
+if (eded % 2 === 0) {
 
     alert(`Eded cutdur`)
 
