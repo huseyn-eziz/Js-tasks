@@ -7,9 +7,9 @@ if (eded > 0){
 
 } else if (eded < 0){
 
-    alert(`Eded mendifir`)
+    alert(`Eded musbetdir`)
 
-} else if (eded === 0){
+} else (eded === 0){
 
     alert(`Eded 0-dir`)
 
