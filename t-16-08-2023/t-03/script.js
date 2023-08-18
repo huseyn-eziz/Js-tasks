@@ -1,3 +1,4 @@
+// A: proud of you 🤠
 let eni = +prompt("Duzbucaqlinin eni")
 let uzunlugu = +prompt("Duzbucaqlinin uzunlugu")
 
