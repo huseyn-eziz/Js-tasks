@@ -1,3 +1,4 @@
+// A: best killer 🗡
 let eded = +prompt(`Farenheite cevirmek istediyiniz Selsi deyerini yazin:`)
 
 
