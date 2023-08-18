@@ -1,3 +1,4 @@
+// A: variable adlarini dogru yazaq
 let e1 = +prompt(`Eded1 daxil edin:`)
 let e2 = +prompt(`Eded2 daxil edin:`)
 let e3 = prompt(`Operatoru daxil edin(+-*/):`)
