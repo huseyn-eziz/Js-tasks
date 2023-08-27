@@ -1,3 +1,4 @@
+// A: proud of you 🤠
 let eded = +prompt(`Eded daxil edin:`)
 
 

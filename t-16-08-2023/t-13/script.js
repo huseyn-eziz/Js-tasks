@@ -1,3 +1,4 @@
+// A: live legend 🐱‍💻
 let e3 = +prompt(`Ededi daxil edin`)
 
 if (e3 > 9 && e3 < 100) {

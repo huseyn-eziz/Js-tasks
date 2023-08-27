@@ -1,3 +1,4 @@
+// A: best killer 🗡
 let music = prompt(`Mahni sec:
 1.Ne ise
 2.Öyrəşmişəm

@@ -1,3 +1,4 @@
+// A: done ✅
 let eded = prompt(`Kvadrat kokunu tapmaq istediyiniz ededi yazin:`)
 
 

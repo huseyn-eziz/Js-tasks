@@ -1,3 +1,4 @@
+// A: best killer 🗡
 let e3 = +prompt(`Ededi daxil edin`)
 
 if (e3 % 10 === 0) {

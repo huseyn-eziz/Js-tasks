@@ -1,3 +1,4 @@
+// A: done ✅
 let e3 = prompt(`Nece daxil olmaq isteyirsiz? admin,user, yoxsa guest?`)
 
 
