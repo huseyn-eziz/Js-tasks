@@ -1,12 +1,11 @@
 let obj = {
-    prop1: 'value1',
-    prop2: 'value2'
+    'prop-2': 'value'
 }
 
 
 
 function prop2Taker(){
-    console.log(obj.prop2);
+    console.log(obj['prop-2']);
 }
 
 prop2Taker()
