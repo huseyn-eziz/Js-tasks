@@ -5,6 +5,6 @@ function yoxlama(mail) {
 
 }
 
-const gmail = "reed@gmail.com"
+const gmail = prompt('gmail daxil et')
 
 yoxlama(gmail)
