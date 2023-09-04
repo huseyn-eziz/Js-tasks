@@ -2,7 +2,8 @@
 
 
 function qisalt(verilen) {
-    return (verilen.indexOf(' ') > 0) ? verilen.substring(0,verilen.indexOf(' ')) + ' G.' : verilen;
+    return verilen.substring(0,verilen.indexOf(' ')) + ' G.' 
+    
 }
 
 
