@@ -1,9 +1,9 @@
-// 7.İstifadəçidən tam adı «AD SOYAD» formatında daxil etməyi xahiş edin. Tam adını konsola fərqli qaydada yəni «SOYAD AD» formatında çıxarın,
+// 8.Telefon nömrəsini parametr kimi qəbul edən isvalidnumber() funksiyasını yazın. Telefon nömrəsi 11 rəqəmdən ibarət olduqda və +7 ilə başladıqda, funksiya true qaytarır.
 
-const adsoyad = prompt('adı «AD SOYAD» formatında daxil')
+function isvalidnumber(nomre) {
+    return (nomre.length == 12 && nomre.startsWith("+7")) ? "nomre duzgundur" : 'nomre yanlisdir'
+    
+}
 
-const ad = adsoyad.substring(0, adsoyad.indexOf(' '))
-const soyad = adsoyad.substring(adsoyad.indexOf(' '), adsoyad.length)
-
-
-console.log(soyad + " " + ad);
+const nomr = prompt('+7 ilə başlayan nomre daxil et')
+console.log(isvalidnumber(nomr));
