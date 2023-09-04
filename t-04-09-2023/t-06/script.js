@@ -12,11 +12,16 @@ function numberToText(reqem) {
         const sozdekionluqlar = [
             "", "On", "Yirmi", "Otuz", "Qirx", "Elli", "Altmış", "Yetmiş", "Seksen", "Doxsan"
         ]
-        console.log(sozdekionluqlar[onluqlar] +' '+ sozdekiteklikler[teklikler].toLowerCase());
+        if (teklikler!=0) {
+            
+            console.log(sozdekionluqlar[onluqlar] +' '+ sozdekiteklikler[teklikler].toLowerCase());
+        } else{
+            console.log(sozdekionluqlar[onluqlar])
+        }
 
     }
 }
 
+const eded = prompt('Eded daxil et')
 
-
-numberToText(97);
+numberToText(eded);
