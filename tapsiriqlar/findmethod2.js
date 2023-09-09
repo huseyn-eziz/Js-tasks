@@ -8,4 +8,7 @@ const istifadeciler = [
   
   const hedefAd = 'Charlie';
 
-  const lazimolanad =ki
+  const lazimolanad = istifadeciler.find((ad) => ad.ad == hedefAd)
+
+
+  console.log(lazimolanad);
