@@ -1,13 +1,11 @@
-let id = 2
-let yeniad ='Ali'
-let yeniemail = 'ali@example.com'
-let iditap = musteriler.find((idi) => idi[0] === id)
-
-
-if(iditap){
-  musteriler.ad = yeniad
-  musteriler.email = yeniemail
-  console.log(`${id} nomreli musterinin adi ${yeniad} ve emaili ${yeniemail} olaraq deyistirildi `);
-} else{
-  console.log(` bele mail yoxdur`);
+function myFunction(a,b) {
+  let sum = ''
+  for (let i = 0; i < b.length; i++) {
+    if (b[i] == a){
+      sum += a
+    }
+  } 
+  return sum.length
 }
+
+console.log( myFunction('h', 'how many times does the character occur in this sentence?'));
