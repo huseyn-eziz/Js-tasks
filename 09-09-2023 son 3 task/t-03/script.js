@@ -1,6 +1,16 @@
-const sayılar = [10, 20, 30, 40, 50];
-const hedefSayı = 30;
-const bulunanSayı = sayılar.findIndex(function(sayı) {
-  return sayı === hedefSayı;
-});
-console.log(bulunanSayı);
+//! 3. multiply(a,b,c) funksiyasi yaradin. Men ona istediyim sayda argument versem bele islemelidir, hasilini geri qaytarmalidir.
+
+function multiply(...ehmed) {
+ 
+  let mult = 1;
+  for (let i = 0; i < ehmed.length; i++) {
+    mult *= ehmed[i];
+  }
+
+  console.log("Mult is", mult);
+}
+
+multiply(1);
+multiply(2, 3);
+multiply(2, 5, 9);
+multiply(5, 6, 2, 3);
