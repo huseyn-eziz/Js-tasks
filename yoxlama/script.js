@@ -1,5 +1,5 @@
 // function myFunction(a) {
-  
+
 //   return sum
 // }
 
@@ -45,8 +45,43 @@
 //     arr.forEach(element => sum += element)
 //     return sum/arr.length
 // }
-function myFunction( arr ) {
-  return arr.reduce((acc, cur) => acc + cur, 0) / arr.length
-  }
-  
-console.log( myFunction([-50,0,50,200]));
+
+//! 2 usul
+// function myFunction( arr ) {
+//   return arr.reduce((acc, cur) => acc + cur) / arr.length
+//   }
+
+// console.log( myFunction([-50,0,50,200]));
+
+//! Write a function that takes an array of strings as argument. Return the longest string.
+
+// function myFunction(a) {
+
+//   return a.reduce((uzun,qisa) => uzun.length > qisa.length ? uzun : qisa )
+//   }
+
+// console.log( myFunction(['I', 'need', 'candy']));
+
+//!Write a function that takes an array as argument. It should return true if all elements in the array are equal. It should return false otherwise.
+
+//! 1ci
+// function myFunction(arr) {
+
+//   let el =arr[0]
+//   for (let i = 0; i < arr.length; i++) {
+//     if (arr[i] !== el) {
+//       return false
+//     }
+//   };
+//   return true
+// }
+
+// console.log(myFunction([1,1,1,1]));
+
+//! 2ci usul
+
+// function myFunction(arr) {
+//   return new Set(arr).size === 1
+// }
+// console.log(myFunction([32,32,32,32]));
+
