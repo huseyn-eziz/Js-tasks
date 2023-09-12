@@ -295,7 +295,19 @@ const array = [
 
 // const netice = array.map(user => user.name.toLowerCase())
 
-//!
+//! Task15. Get the average length of all user names.
+
+// const net = array.reduce((cem,user) => cem + user.name.length , 0)
+
+// const netice = net / array.length
+
+//! Task16. Get an array of all user IDs multiplied by 2.
+
+// const netice =  array.map(user => user.id*2)
+
+//!  Task17. Get the total number of characters in all user names.
+
+// const netice = array.reduce((total, aduzunlugu) => total + aduzunlugu.username.length, 0)
 
 console.log(netice);
 
