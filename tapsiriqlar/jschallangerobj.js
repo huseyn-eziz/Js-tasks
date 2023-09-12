@@ -32,3 +32,31 @@
 // console.log(myFunction({ a: 1, b: 2, c: 3 }, 'b'));
 // console.log(myFunction({ x: 'a', y: null, z: 'c' }, 'y'));
 // console.log(myFunction({ x: 'a', b: 'b', z: undefined }, 'z'));
+
+//! myFunction(['a','b','c'],[1,2,3]) Expected {a:1,b:2,c:3}
+
+//! usul 1
+// function myFunction(a,b) {
+//     const result = {};
+  
+//     for (let i = 0; i < a.length; i++) {
+//       result[a[i]] = b[i];
+//     }
+    
+//     return result;
+
+// }
+
+// console.log(myFunction(['a','b','c'],[1,2,3]));
+
+//! usul2
+
+// function myFunction(a,b) {
+    
+//     return a.reduce((ilk,son,i)=> ({...ilk, [son]:b[i] }) ,{})
+
+//   }
+  
+//   console.log(myFunction(['a','b','c'],[1,2,3]));
+
+
