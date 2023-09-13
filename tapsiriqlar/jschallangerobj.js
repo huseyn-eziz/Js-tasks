@@ -38,11 +38,11 @@
 //! usul 1
 // function myFunction(a,b) {
 //     const result = {};
-  
+
 //     for (let i = 0; i < a.length; i++) {
 //       result[a[i]] = b[i];
 //     }
-    
+
 //     return result;
 
 // }
@@ -52,11 +52,84 @@
 //! usul2
 
 // function myFunction(a,b) {
-    
+
 //     return a.reduce((ilk,son,i)=> ({...ilk, [son]:b[i] }) ,{})
 
 //   }
-  
+
 //   console.log(myFunction(['a','b','c'],[1,2,3]));
+
+//!Write a function that takes an object (a) as argument. Return an array with all object keys. myFunction({j:9,i:2,x:3,z:4}) ['j','i','x','z']
+
+// function myFunction(a) {
+
+//     return Object.keys(a) 
+
+// }
+
+// console.log(myFunction({j:9,i:2,x:3,z:4}));
+
+//! Write a function that takes an object as argument. In some cases the object contains other objects with some deeply nested properties. Return the property 'b' of object 'a' inside the original object if it exists. If not, return undefined   myFunction({a:{b:{c:3}}}) {c:3}
+
+
+// function myFunction(obj) {
+//     if (obj.hasOwnProperty('a') && typeof obj.a === 'object' && obj.a.hasOwnProperty('b')) {
+//         return obj.a.b;
+//       }
+//       return undefined;
+//     }
+
+// console.log(myFunction({a:{b:{c:3}}}));
+
+
+//! keylerinin cemi
+
+// function myFunction(obj) {
+
+//     return Object.values(obj).reduce((a, b) => a + b)
+
+// }
+
+// console.log(myFunction({ j: 9, i: 2, x: 3, z: 4 }));
+
+//! obyektden element sil
+
+//!usul1
+
+// function myFunction(obj,sil){
+//   if (obj.hasOwnProperty(sil)){
+//     delete obj[sil]
+//   } 
+//     return obj
+  
+    
+// }
+
+// console.log( myFunction({ e: 6, f: 4, b: 5, a: 3 },'b'))
+
+
+//! usul2
+
+// function myFunction(obj){
+//   if (obj.hasOwnProperty('b')){
+//     delete obj['b']
+//   } 
+//     return obj
+  
+    
+// }
+
+// console.log( myFunction({ e: 6, f: 4, b: 5, a: 3 }))
+
+//!Write a function that takes two objects as arguments. Unfortunately, the property 'b' in the second object has the wrong key. It should be named 'd' instead. Merge both objects and correct the wrong property name. Return the resulting object. It should have the properties 'a', 'b', 'c', 'd', and 'e'
+
+
+// function myFunction(x, y) {
+//     const { b, ...rest } = y;
+//     return { ...x, ...rest, d: b };
+//   }
+
+
+//   console.log(myFunction({ a: 1, b: 2 }, { c: 3, b: 4, e: 5 }));
 
 
