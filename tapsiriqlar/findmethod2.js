@@ -1,3 +1,4 @@
+// A: cool 😎
 const istifadeciler = [
     { ad: 'Alice', yaş: 30 },
     { ad: 'Bob', yaş: 25 },
