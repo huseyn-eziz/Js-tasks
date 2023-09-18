@@ -1,3 +1,4 @@
+// A: cool 😎
 // function myFunction(a) {
 
 //   return sum
