@@ -1,3 +1,4 @@
+// A: live legend 🐱‍💻
 const kullanicilar = [
     { ad: 'Alice', yas: 30 },
     { ad: 'Bob', yas: 25 },
