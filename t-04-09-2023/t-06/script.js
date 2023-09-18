@@ -1,5 +1,5 @@
 // 6.İstifadəçidən 1 ilə 99 arasında rəqəm daxil etməsini tələb edən və onu mətn şəklində konsola çıxaran numberToText funksiyası tərtib edin.
-
+// A: proud of you 🤠
 function numberToText(reqem) {
     const sozdekiteklikler = [
         "Sıfır", "Bir", "İki", "Üç", "Dört", "Beş", "Altı", "Yeddi", "Sekkiz", "Doqquz"
