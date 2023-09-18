@@ -1,3 +1,4 @@
+// A: cool 😎
 const reqemler = [10, 15, 20, 25, 30];
 
 function cemihesabla(reqemler) {

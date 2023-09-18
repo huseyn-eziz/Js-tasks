@@ -1,3 +1,4 @@
+// A: proud of you 🤠
 //! 2. Funksiya yazin ki, massivde olan butun elementlerin hasilini ekrana cixarsin. 
 let massiv =[1,2,3,4,5]
 

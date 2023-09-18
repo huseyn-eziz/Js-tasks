@@ -1,3 +1,4 @@
+// A: cool 😎
 const meyveler = ['elma', 'armut', 'muz', 'çilek'];
 
 

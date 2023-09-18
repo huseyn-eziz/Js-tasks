@@ -1,5 +1,5 @@
 // 3. Bütün ikirəqəmli tək ədədlərin cəmini konsola çıxaran proqram yazın.
-
+// A: live legend 🐱‍💻
 let sum = 0
 
 for (let i = 10; i < 100; i++) {

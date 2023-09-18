@@ -1,4 +1,4 @@
-
+// A: done as 🐉
 
 function namesa(names) {
     console.log(`${names} is active now`)

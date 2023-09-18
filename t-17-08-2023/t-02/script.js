@@ -1,5 +1,5 @@
 
-
+// A: best killer 🗡
 function ededler(eded1,eded2,eded3) {
     if (eded1 > eded2 && eded1>eded3){
         console.log(`${eded1} en boyukdur`);
