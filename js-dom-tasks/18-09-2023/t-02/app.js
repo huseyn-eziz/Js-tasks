@@ -74,7 +74,10 @@ submit.onclick = () => {
         cevre.style.height = text.value
         let r = text.value
         let pi = 3
-        let sahe = 2 * pi * parseInt(r)
-        uzunluq.innerHTML = `<h1>Cevrenin sahesi : ${sahe} sm-dir </h1>`
+        let uzunlugu = 2 * pi * parseInt(r)
+        let sahe = pi * parseInt(r) * parseInt(r) 
+        uzunluq.innerHTML = `
+        <h1>Cevrenin uzunlugu ${uzunlugu} sm-dir </h1>
+       <h1>Cevrenin uzunlugu: ${sahe} sm-dir </h1>`
     }
 }
