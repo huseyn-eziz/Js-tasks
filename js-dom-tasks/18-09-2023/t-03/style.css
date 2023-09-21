@@ -1,0 +1,32 @@
+:root {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 10px;
+}
+body {
+  background-color: black;
+}
+#root {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.circle {
+  border-radius: 15px;
+  border: 1px solid white;
+  transition: 0.3s;
+}
+.circle:hover {
+  cursor: pointer;
+  box-shadow: 0px 0px 12px 6px rgba(139, 131, 131, 0.75);
+}
+img {
+  border-radius:  20px;
+  object-fit: cover;
+}
+h1,
+p {
+  color: white;
+  text-align: center;
+}
+
